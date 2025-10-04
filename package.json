@@ -3,11 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/suhas152/reactapp-gitactions",
+  "homepage":"https://suhas152.github.io/reactapp-gitactions/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-     "predeploy": "npm run build",
+
   "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
